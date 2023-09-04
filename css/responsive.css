@@ -1,0 +1,441 @@
+@media (max-width:768px) {
+    header .navigation .menu-list {
+        position: absolute;
+        top: 12vh;
+        min-width: 100%;
+        background: #f2f2f2;
+        text-align: center;
+        display: none;
+      }
+      header .navigation .logo{
+          margin-left:10px;
+        }
+      header .navigation .menu-list li {
+        display: block;
+      }
+    
+      header .navigation .menu-list li a {
+        display: block;
+        padding: 20px;
+        transition: color 1s ease, padding 1s ease, background-color 1s ease;
+    
+      }
+    
+      header .navigation .menu-list li a:hover{
+        color: #b1d4e0;
+        padding-left: 30px;
+        background: rgb(0, 191, 99);
+      }
+    
+    
+      header .navigation .humbarger{
+        display: block;
+      }
+
+      /* home */
+
+    #particles-js {
+        height: 150vh;
+    }
+
+    .home {
+        width: 80%;
+        margin: auto;
+        /* border: 1px solid black; */
+    }
+
+    .home-content {
+        flex-basis: 100%;
+    }
+
+    .home-content {
+        /* font-size: 90px; */
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .home-logo {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .home-logo img {
+        height: 100%;
+        width: 80%;
+        
+    }
+    .services
+    {
+        width: 80%;
+        margin: auto;
+    }
+    /* about */
+    .about {
+        width: 80%;
+        margin: auto;
+        /* border: 1px solid black; */
+    }
+
+    .about-img {
+        flex-basis: 100%;
+        margin: auto;
+    }
+
+    .about-content {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    .about-content h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .about-content p {
+        line-height: 30px;
+        word-spacing: 4px;
+    }
+
+
+    /* deal */
+    .deal {
+        width: 80%;
+        /* border: 1px solid black; */
+        margin: auto;
+    }
+
+    .deal-content {
+        flex-basis: 100%;
+    }
+
+    .deal-content h3 {
+        font-size: 36px;
+        line-height: normal;
+    }
+
+    .deal-img {
+        flex-basis: 90%;
+        margin: auto;
+    }
+
+    .deal-box {
+        flex-basis: 90%;
+        /* border: 1px solid black; */
+        margin: 10px 0;
+    }
+
+    /* testimonial */
+    #testimonial {
+        width: 80%;
+        margin-bottom: 40px;
+        /* margin: auto; */
+        /* border: 1px solid black; */
+    }
+
+
+    /* team */
+    .team-area {
+        width: 80%;
+        /* border: 1px solid black; */
+        margin: auto;
+    }
+
+    .img-area img {
+        display: inline-block;
+    }
+
+    /* footer */
+    .single-box {
+        margin-bottom: 50px;
+    }
+
+    /* faq */
+    .Faq {
+        width: 80%;
+        /* border: 1px solid black; */
+        margin: auto;
+    }
+
+    .faq-box {
+        flex-basis: 100%;
+    }
+
+    .faq-box img {
+        margin-bottom: 10px;
+    }
+
+    /* contact */
+    .contact {
+        width: 80%;
+        /* border: 1px solid black; */
+        margin: auto;
+    }
+
+    .contact-box {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .form {
+        flex-basis: 100%;
+    }
+}
+
+@media(max-width: 575.5px) {
+
+    /* home */
+    #particles-js {
+        height: 130vh;
+    }
+
+    .home-content h6 {
+        font-size: 17px;
+    }
+
+    .home-content h1 {
+        font-size: 100px;
+    }
+
+    .home-content h3 {
+        font-size: 28px;
+    }
+
+    .home-logo img {
+        height: 330px;
+        width: 370px;
+    }
+
+    
+    /* about */
+    .about {
+        width: 80%;
+        margin: auto;
+        /* border: 1px solid black; */
+    }
+
+    .about-img {
+        flex-basis: 100%;
+        margin: auto;
+    }
+
+    .about-content {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    .about-content h1 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .about-content h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .about-content p {
+        font-size: 14px;
+        line-height: 30px;
+
+    }
+
+
+    /* deal */
+    .deal-content h3 {
+        font-size: 37px;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+    .deal-box {
+        flex-basis: 100%;
+        /* border: 1px solid black; */
+        margin: 10px 5px;
+    }
+
+    /* testimonial */
+    .container {
+        margin: 0px;
+        padding: 20px
+    }
+
+    .tag {
+        font-size: 20px;
+    }
+
+    .head {
+        font-size: 30px;
+    }
+
+    /* faq */
+    .question button h5 {
+        font-size: 14px;
+    }
+
+    .question p {
+        font-size: 10px;
+    }
+    .Faq h3
+    {
+        font-size: 20px;
+    }
+    .Faq h1
+    {
+        font-size: 28px;
+    }
+    /*contact  */
+    .contact-box i {
+
+        font-size: 25px;
+
+    }
+
+    .contact-box a {
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    header .navigation .menu-list {
+      width: 60%;
+    }
+  
+    header .navigation .menu-list li a{
+      font-size: 1rem;
+    }
+    
+  
+  }
+@media(max-width: 1000px) and (min-width:769px){
+    #particles-js {
+        height: 170vh;
+    }
+
+        
+    .home {
+        width: 80%;
+        margin: auto;
+    }
+
+    .home-content {
+        flex-basis: 100%;
+    }
+
+    .home-content {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .home-logo {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .services
+    {
+        width: 80%;
+    }
+    .about {
+        width: 80%;
+        margin: auto;
+        /* border: 1px solid black; */
+    }
+
+    .about-img {
+        flex-basis: 100%;
+        margin: auto;
+    }
+
+    .about-content {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    .about-content h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .about-content p {
+        line-height: 30px;
+        word-spacing: 4px;
+    }
+
+
+    /* deal */
+    .deal {
+        width: 80%;
+        /* border: 1px solid black; */
+        margin: auto;
+    }
+
+    .deal-content {
+        flex-basis: 100%;
+    }
+
+    .deal-content h3 {
+        font-size: 36px;
+        line-height: normal;
+    }
+
+    .deal-img {
+        flex-basis: 90%;
+        margin: auto;
+    }
+
+    .deal-box {
+        flex-basis: 48%;
+        /* border: 1px solid black; */
+        margin: 10px 5px;
+    }
+    /* testimonial */
+    #testimonial {
+        width: 80%;
+        margin-bottom: 40px;
+        /* margin: auto; */
+        /* border: 1px solid black; */
+    }
+
+
+    /* team */
+    .team-area {
+        width: 80%;
+        /* border: 1px solid black; */
+        margin: auto;
+    }
+
+    .img-area img {
+        display: inline-block;
+    }
+
+    
+
+    /* faq */
+    .Faq {
+        width: 80%;
+        /* border: 1px solid black; */
+        margin: auto;
+    }
+
+    .faq-box {
+        flex-basis: 100%;
+    }
+
+    .faq-box img {
+        margin-bottom: 10px;
+    }
+
+    /* contact */
+    .contact {
+        width: 80%;
+        /* border: 1px solid black; */
+        margin: auto;
+    }
+
+    .contact-box {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .form {
+        flex-basis: 100%;
+    }
+
+}
